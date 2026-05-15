@@ -5,11 +5,23 @@
     font-family: 'Courier New', Courier, monospace;
     background-color: beige;
 }
-/*Pagina de inicio*/
+a{
+    text-decoration: none;
+}
+.img-center{
+    margin: auto;
+    display: block;
+}
 .title{
     color: red;
     text-align: center;
+    margin-bottom: 10px;
 }
+.subtitle{
+    color: red;
+    margin: 0 10px 5px;
+}
+/*Pagina de inicio*/
 .links{
     margin-left: auto;
 }
@@ -30,11 +42,31 @@
     background-color: black;
     color: beige;
 }
-
 /*Recetas*/
 .home{
     display: block;
     width: 100px;
-    padding: 25px;
+    padding: 15px;
     border: 1px solid black;
+    text-align: center;
+    color: black;
+    margin-bottom:5px ;
+}
+.home:hover{
+    background-color: black;
+    color: beige;
+}
+.description p{
+    margin: 0 10px 10px;
+    border-bottom: 1px solid black;
+}
+.ingredients ul{
+    margin: 0 10px 10px;
+    border-bottom: 1px solid black;
+}
+.steps ol{
+    margin: 0 10px 10px;
+}
+div li{
+    margin-bottom: 2px;
 }
