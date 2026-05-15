@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+}
+/*Pagina de inicio*/
+.title{
+    color: red;
+    text-align: center;
+}
+.links{
+    margin-left: auto;
+}
+.links a{
+    text-decoration: none;
+}
+.links a {
+    display: block;
+    color: black;
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px 0;
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid black;
+}
+.links a:hover{
+    background-color: black;
+    color: beige;
+}
+
+/*Recetas*/
+.home{
+    display: block;
+    width: 100px;
+    padding: 25px;
+    border: 1px solid black;
+}
